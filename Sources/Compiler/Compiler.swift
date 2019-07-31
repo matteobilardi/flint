@@ -134,7 +134,8 @@ extension Compiler {
                                               ).absoluteString,
                                               maxTransactionDepth: config.maxTransactionDepth,
                                               maxHolisticTimeout: config.maxHolisticTimeout,
-                                              monoLocation: "/usr/bin/mono",
+                                              monoLocation:
+                                                "/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono",
                                               topLevelModule: passRunnerOutcome.element,
                                               environment: passRunnerOutcome.environment,
                                               sourceContext: sourceContext,
